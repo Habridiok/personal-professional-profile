@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# lighthouse-ci
+/.lighthouseci/
+
 # production
 /build
 
@@ -39,3 +42,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI tool configs
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# Dev planning notes
+brainstorm/
