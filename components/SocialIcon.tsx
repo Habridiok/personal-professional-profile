@@ -37,5 +37,7 @@ export default function SocialIcon({
           />
         </svg>
       );
+    default:
+      return null;
   }
 }
